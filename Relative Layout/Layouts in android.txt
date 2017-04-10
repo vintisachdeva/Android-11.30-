@@ -1,0 +1,45 @@
+Layouts:
+
+
+ViewGroup: more than one component. Layout can deal with more than one View and more than one Layout.
+
+View: single component--> button, textview, edittext, etc.
+
+Mandatory attributes for View and ViewGroup:
+
+layout_width
+layout_height
+
+wrap_content: wrap the height acc. to the data(no of characters and size of text).
+
+match_parent: 
+
+hard_coded value: 
+
+
+Layouts:
+--> Relative Layout
+--> Linear Layout
+--> Frame Layout
+--> Table Layout
+--> Constraint Layout
+--> Coordinator Layout(extra library)
+
+Relative Layout:
+
+relative layout always work with the related position of parent and child
+
+when we want to avoid nested layouts than we can prefer relative layout
+
+Link 1:
+
+https://play.google.com/store/apps/details?id=com.ted.android&hl=en
+
+Link 2:
+
+https://play.google.com/store/apps/details?id=com.kooapps.pictowordandroid&hl=en
+
+Link 3:
+
+https://play.google.com/store/apps/details?id=education.englishforkid.leaningenglish&hl=en
+
