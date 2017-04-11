@@ -1,0 +1,13 @@
+LinearLayout--> work in linear order--> work vertically/horizontally
+
+by default--> horizontal
+
+android:orientation="horizontal"
+
+layout_gravity= work on complete layout rather than on the childs of the layout
+
+width and height
+
+gravity= within work--> within the layout and applied on the child of that layout
+
+ width and height
