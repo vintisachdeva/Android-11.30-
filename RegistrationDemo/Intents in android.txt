@@ -1,0 +1,23 @@
+Intent--> Predefined class in android
+
+Intent--> 
+
+1) when we want to switch from one screen to another then intent is used.
+
+2) when we want to pass data on second screen.
+
+3) when we want to perform any action.eg--> when we click a button within our app and then that redirect as on another app in phone.
+
+4) when we have to start any service in background
+
+5) when we have to make any broadcast message
+
+
+Two types of Intent:
+
+1) Implicit intent
+2) Explicit intent
+
+Implict intent: to perform any action. switching from one app to another app--> outside app
+
+Explicit intent: to start another activity or pass data from one activity to another activity then explicit intents are used.--> within app
