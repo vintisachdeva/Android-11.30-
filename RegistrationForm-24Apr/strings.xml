@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RegistrationForm</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="gender">Gender</string>
+    <string name="modify">"Do you want to modify your details?"</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>
