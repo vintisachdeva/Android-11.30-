@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Internationalisation</string>
+    <string name="helloWorld">Bonjour le monde</string>
+    <string name="ok">"D'accord"</string>
+    <string name="cancel">Annuler</string>
+</resources>
