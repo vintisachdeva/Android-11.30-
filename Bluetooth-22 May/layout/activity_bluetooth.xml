@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.bluetoothapp.BluetoothActivity"
+    android:padding="16dp">
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:switchMinWidth="50dp"
+        android:id="@+id/switch1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:text="Visible"
+        android:id="@+id/visibleButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pairedDevice"
+        android:text="Paired Device"
+        android:layout_below="@+id/switch1"
+        android:layout_alignParentEnd="true"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visibleButton"
+        android:id="@+id/listView"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="1dp"></ListView>
+
+</RelativeLayout>
